@@ -2,12 +2,13 @@ body {
   font: 400 1rem arial;
 }
 
-.nacionalidade{
+.speedCar {
   display: flex;
-  gap: 1rem;
-  
+  gap: 0.5rem;
+
   & input {
     height: 21px;
+    display: grid;
     align-self: center;
   }
 }
