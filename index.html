@@ -7,15 +7,20 @@
   <title>Nacionalidade</title>
 </head>
 <body>
-  <h1>Sistema de multas</h1>
-  <div class="speedCar">
-    <p>Velocidade do carro:</p>
-    <input type="number" name="txtvel" id="txtvel">
-    <p>Km/h</p>
-    <input type="button" value="Verificar" onclick="calcular()">
-    
-  </div>
-  <div id="res"></div>
+  <main>
+    <section>
+      <h1>Sistema de multas</h1>
+      <div class="speedCar">
+        <p>Velocidade do carro:</p>
+        <div>
+          <input type="number" name="txtvel" id="txtvel">
+          <p>Km/h</p>
+        </div>
+        <input type="button" value="Verificar" onclick="calcular()" id="buttonVerify">
+      </div>
+      <div id="res"></div>
+    </section>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>

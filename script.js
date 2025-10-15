@@ -1,6 +1,9 @@
 function calcular(){
   var txtv = document.querySelector('input#txtvel')
   var res = document.querySelector('div#res')
+  res.style.textAlign = 'center'
+  res.style.marginBlock = '3rem'
+  res.style.font = '400 0.8rem arial'
   var vel = Number(txtv.value)
   res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel} Km/h</strong></p>`
 
