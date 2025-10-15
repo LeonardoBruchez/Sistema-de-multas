@@ -1,0 +1,13 @@
+body {
+  font: 400 1rem arial;
+}
+
+.nacionalidade{
+  display: flex;
+  gap: 1rem;
+  
+  & input {
+    height: 21px;
+    align-self: center;
+  }
+}
