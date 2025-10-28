@@ -13,18 +13,28 @@ body {
 
 main {
   background-color: rgb(0, 132, 255);
-  padding: 10rem 1rem;
+  padding: 5rem 1rem;
   width: 15.6rem;
   margin: auto;
   border-inline: 1px solid rgb(0, 89, 255);
   border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.356) 2px 3px 18px 0px;
 
   & section {
     width: 100%;
   }
 
-  & h1 {
+  & h1,h3 {
     text-align: center;
+  }
+
+  & h1 {
+    font: 700 1.7rem arial;
+    margin-bottom: 1rem;
+  }
+
+  & h3 {
+    font: 500 1.2rem arial;
   }
   
   & .speedCar {
@@ -72,11 +82,15 @@ main {
   }
 }
 
+.displayNone{
+  display: none;
+}
+
 @media (width >=30rem){
   main{
     width: 31rem;
-    margin: auto;
-    height: 30rem;
+    margin: 2rem auto;
+    height: 25rem;
 
     & .speedCar  {
       margin-top: 2rem;
