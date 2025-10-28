@@ -24,6 +24,13 @@ function calcular(){
   }else{
     res.innerHTML += `<p>Tenha uma ótima viagem!</p>`
     res.style.font = '500 1.3rem arial'
+    txtv.style.outline = '2px solid green'
+    main.style.background = 'rgba(191, 197, 190, 1)'
+    document.body.style.background = 'rgba(189, 214, 169, 1)'
+    main.style.border = 'none'
+    submit.style.outline = '2px solid green'
+    velLimit.classList.remove('displayNone')
+
   }
   res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
 }
