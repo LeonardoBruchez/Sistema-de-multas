@@ -1,6 +1,8 @@
 body {
   font: 400 .7rem arial;
   background: linear-gradient(to bottom,rgb(0, 26, 255),rgb(0, 119, 255))10%;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 *,*::after,*::before{
@@ -15,6 +17,7 @@ main {
   width: 15.6rem;
   margin: auto;
   border-inline: 1px solid rgb(0, 89, 255);
+  border-radius: 0.6rem;
 
   & section {
     width: 100%;
